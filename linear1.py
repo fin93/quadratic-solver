@@ -16,9 +16,11 @@ class Solving:
         if a > self.a:
             b = a - self.a
             print(f"{a}n - {b}")
+            input()
         elif a < self.b:
             b = self.a - a
             print(f"{a}n + {b}")
+            input()
 
     def solve_quadratic(self):
         global b, c
