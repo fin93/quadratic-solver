@@ -20,7 +20,6 @@ class Solving:
             b = self.a - a
             print(f"{a}n + {b}")
 
-
     def solve_quadratic(self):
         global b, c
         first = self.b - self.a
