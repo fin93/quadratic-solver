@@ -1,7 +1,7 @@
 b, c = 0, 0
 quad_list = []
 s_list = []
-a_1 = [1, 16, 15]
+a_1 = []
 
 
 class Solving:
@@ -42,7 +42,7 @@ class Solving:
         print(f"{final}n^2 +", end=" ")
         Solving(s_list).solve_linear()
 
-        Quadratic(a_1).work_out()
+        # Quadratic(a_1).work_out()
 
 
 class Sqrt:
