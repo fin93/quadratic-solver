@@ -1,7 +1,7 @@
 b, c = 0, 0
 quad_list = []
 s_list = []
-a_1 = []
+a_1 = [1]
 
 
 class Solving:
